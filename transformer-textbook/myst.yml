@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 5c877e48-b5df-4701-8af2-85114741c549
+  title: "Transformer Textbook"
+  # description:
+  # keywords: []
+  authors: ["Haru Nakamura", "Itsuki Abe", "Koichiro Harashina", "Riku Miura"]
+  github: https://github.com/NITIC-J-Murakami-Lab/transformer-textbook
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+
+  toc:
+    - file: index.md
+site:
+  template: book-theme
