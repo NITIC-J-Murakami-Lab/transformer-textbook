@@ -34,7 +34,7 @@ jobs:
         run: uv sync --locked --all-extras --dev
 
       - name: Build the book
-        run: jb build ./transformer-textbook
+        run: uv run jb build ./transformer-textbook
 
       - name: check files
         run: ls
