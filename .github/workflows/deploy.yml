@@ -34,6 +34,7 @@ jobs:
         run: uv sync --locked --all-extras --dev
 
       - name: Build the book
+        working-directory: transformer-textbook
         env:
           BASE_URL: https://NITIC-J-Murakami-Lab.github.io/transformer-textbook/
         run: uv run jupyter-book build --html
