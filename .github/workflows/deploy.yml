@@ -36,12 +36,12 @@ jobs:
       - name: Build the book
         working-directory: transformer-textbook
         env:
-          BASE_URL: https://NITIC-J-Murakami-Lab.github.io/transformer-textbook/
+          BASE_URL: https://NITIC-J-Murakami-Lab.github.io/transformer-textbook
         run: uv run jupyter-book build --html
 
       - name: check files
         run: ls
-        
+
       - name: check files
         run: ls ./transformer-textbook/_build
 
