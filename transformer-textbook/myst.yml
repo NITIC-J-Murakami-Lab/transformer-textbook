@@ -14,5 +14,11 @@ project:
     - title: 第1章 導入
       children:
         - file: 01_01.md
+  toc:
+    - file: index.md
+    - title: 第2章 アーキテクチャ解説
+      children:
+        - file: text_abe.ipynb
+  
 site:
   template: book-theme
