@@ -17,6 +17,9 @@ project:
     - title: 第2章 アーキテクチャ解説
       children:
         - file: text02.md
+        
+        - file: 2-4_MaskedMulti-HeadAttention.ipynb 
+        - file: 2-5_Detail.ipynb
   
 site:
   template: book-theme
