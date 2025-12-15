@@ -1,4 +1,5 @@
 # See docs at: https://mystmd.org/guide/frontmatter
+format: jb-book, markdown
 version: 1
 project:
   id: 5c877e48-b5df-4701-8af2-85114741c549
